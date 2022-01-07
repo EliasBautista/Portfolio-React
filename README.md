@@ -1,2 +1,2 @@
-# Portfolio-React
- Mi portafolio personal, con React.
+# PortafolioWeb
+ Repositorio de mi portafolio personal.

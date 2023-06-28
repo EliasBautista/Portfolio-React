@@ -12,23 +12,24 @@ export default function AboutMe(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-  const SCREEN_CONSTSANTS = {
-    description:
-      "Software engineering is a discipline that has no end, a puzzle that I passionately dedicate myself to solving, because I am very motivated by the idea of always having new challenges to face. I believe in the power of programming to transform and improve the lives of people. ",
-    highlights: {
-      bullets: [
-        "Mobile Development: Android/IOS",
-        "UX/UI",
-        "Project Management",
-        "Portfolio Management",
-        "Governance & PMO",
-        "Data mining",
-        "Machine Learning",
-        "Big Data Analytics",
-      ],
-      heading: "Here are a Few Highlights:",
-    },
-  };
+    const SCREEN_CONSTSANTS = {
+      description:
+        "Software engineering is a discipline that has no end, a puzzle that I passionately dedicate myself to solving, because I am very motivated by the idea of always having new challenges to face. I believe in the power of programming to transform and improve the lives of people. ",
+      highlights: {
+        bullets: [
+          "Data Engineering",
+          "Machine Learning",
+          "Big Data Analytics",
+          "Business Intelligence",
+          "Database Management",
+          "ETL and Data Pipelines with Shell, Airflow and Kafka",
+          "Data Warehouseing",
+          "BI Analytics",
+          "Big Data with Spark and Hadoop",
+        ],
+        heading: "Here are a Few Highlights:",
+      },
+    };
   const renderHighlight = () => {
     return SCREEN_CONSTSANTS.highlights.bullets.map((value, i) => (
       <div className="highlight" key={i}>

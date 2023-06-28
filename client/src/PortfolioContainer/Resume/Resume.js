@@ -131,26 +131,45 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Research Center in Educational Technology UAQ"}
-          subHeading={"Software developer"}
+          heading={"FullStack Developer"}
+          subHeading={"Infosys"}
           fromDate={"2021"}
+          toDate={"2022"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            • Backend using Spring and Java.
+          </span>
+        </div>
+          <span className="resume-description-text">
+            • Frontend using Angular and Typescript.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            • Developing business applications with microservices and following good practices.{" "}
+          </span>
+          <br />
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Data Engineer"}
+          subHeading={"Encontrack"}
+          fromDate={"2022"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            • Design and production of courses and diplomas in virtual mode.
+            • Training ML models with Amazon SageMaker, Python and Tensorflow.
           </span>
         </div>
-        <div className="experience-description">
           <span className="resume-description-text">
-            • Automation of processes for the generation of web pages on the Moodle platform.
+            • Database optimization (MongoDB, Amazon RDS, MYSQL, PostgreSQL, Intersystems Cache)
           </span>
           <br />
           <span className="resume-description-text">
-            • Course design on the Moodle platform.{" "}
+            • Development and implementation of ETL components with technologies such as Python, NodeJS, Golang, Java, SocketIO, Redis, Kafka.{" "}
           </span>
           <br />
-        </div>
       </div>
     </div>,
 
